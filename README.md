@@ -1,10 +1,33 @@
-# Weather App with Next JS, React, Tanstack Query, Shadcn UI, Recharts, Tailwind, Typescript Tutorial 🔥🔥
-## https://youtu.be/BCp_5PoKrvI
+# 🌤️ React Weather App
 
-![klimate](https://github.com/user-attachments/assets/03aed8a9-f2e1-4fcf-8628-5d1abd0c678c)
+A sleek and responsive weather application built using **React.js** and the **OpenWeather API**. Users can search for any city and instantly view current weather conditions including temperature, humidity, wind speed, and more.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
+## 🚀 Features
+
+- Live weather data for any city
+- Search functionality
+- Dynamic weather icons
+- Temperature in Celsius
+- Responsive design for all devices
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **OpenWeather API**
+- **Axios** (for API requests)
+- **CSS** (for styling)
+
+---
+
+## 🔑 API Key Setup
+
+1. Go to [OpenWeatherMap](https://openweathermap.org/api) and sign up.
+2. Generate your **API key**.
+3. Create a `.env` file in your project root and add:
+
+```env
 VITE_OPENWEATHER_API_KEY=
-```
